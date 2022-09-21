@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri+Quran&family=Roboto+Condensed:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    background-color: antiquewhite;
+}
+header {
+    display: flex;
+    background-color: black;
+    justify-content: space-around;
+    
+}
+
+.logo {
+    font-size: xx-large;
+    color: white;
+    align-items: center;
+    justify-content: center;
+}
+
+nav {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.opcao-menu {
+    text-decoration: none;
+    color: aqua;
+    border: 1px solid aqua;
+    background-color: black;
+    margin: 8px;
+    padding: 8px;
+    border-radius: 8px;
+}
+
+/**//**//**//**//**/
+
+.quem-sou-eu {
+    margin: auto;
+}
+
+.titulo {
+    color: aqua;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.texto {
+    color: white;
+    font-family: 'Amiri Quran', serif;
+}
+
+/**//**//**//**//**//**/
+
+.rodape {
+    background-color: black;
+    color: aqua;
+    margin-bottom: 0 fixed;
+}
